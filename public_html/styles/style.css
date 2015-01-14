@@ -1,0 +1,59 @@
+header {
+    background-image: url(../images/fon-head.jpg);
+    background-repeat: repeat;
+    height: 35px;
+
+}
+.head {
+    width: 950px;
+    margin: 0 auto;
+}
+.left-head {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 14px;
+    color: #535356;
+    width: 190px;
+    padding: 8px 0 0;
+}
+.left-head p {
+    float: right;
+}
+.left-head span[name='gray'], .left-head a {
+    color: #8d8888;
+}
+.left-head a:hover {
+    color: #bfbfbf;
+}
+.right-head {
+    float: right;
+    margin: -15px 0 0;
+}
+.right-head a {
+    color: #8c8989;
+    padding: 8px 10px 8px 0;
+}
+.right-head span {
+    font-size: 10px;
+}
+.right-head > ul > li {
+    float: left;
+    color: #8c8989;
+}
+
+.dropdown-menu {
+    display: none;
+    padding: 0 25px;
+    position: absolute;
+    left: 877px;
+}
+.dropdown-menu li  {
+    padding: 10px 5px;
+    border-bottom: 10px solid #000;
+
+}
+.right-head li:hover ul {
+    display: block;
+    margin: 10px 0 0 0px;
+    background-image: url(../images/fon-head.jpg);
+}
